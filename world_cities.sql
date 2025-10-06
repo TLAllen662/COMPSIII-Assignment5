@@ -11,15 +11,14 @@ create table cities (
     population integer not null
 )
 insert into cities (id, name, country, population) values
-(1. 'New York', 'United States', 8398748),
 (2, 'Tokyo', 'Japan', 13515271),
-(3, 'Cairo', 'Egypt', 9500000),
 (4, 'Sydney', 'Australia', 5312163),
 (5, 'Sao Paulo', 'Brazil', 12252023),
-(6, 'Paris', 'France', 2140526),
 (7, 'Lagos', 'Nigeria', 14368332),
 (8, 'Mumbai', 'India', 12442373),
 (9, 'Osaka', 'Japan', 2752123),
-(10, 'Beijing', 'China', 21542000);
+(10, 'Beijing', 'China', 19400000);
+select * from cities;
 
-Select * from cities;
+
+
